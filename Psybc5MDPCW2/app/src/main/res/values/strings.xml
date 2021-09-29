@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Psybc5-MDP-CW2</string>
+    <string name="google_maps_key">AIzaSyAtUKuHl-W6KJNBeHxWvfH1fvaKbe_wCnE</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="title_activity_viewrun">ViewRunActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Running Tracker</string>
+    <string name="nav_header_subtitle">MDP-CW2</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_timer">Running Timer:</string>
+    <string name="title_data">Activity Overview:</string>
+    <string name="title_select">Select From:</string>
+    <string name="title_stats">Statistics:</string>
+
+    <string name="menu_home">Timer</string>
+    <string name="menu_gallery">Data</string>
+    <string name="menu_slideshow">Settings</string>
+
+    <string name="table_date">Date/Time</string>
+    <string name="table_duration">Duration</string>
+    <string name="table_distance">Distance (metres)</string>
+    <string name="table_rating">Rating</string>
+    <string name="table_note">Note</string>
+    <string name="table_weather">Weather</string>
+
+    <string name="stepstaken">Steps Taken: %d</string>
+    <string name="timetaken">Time Taken: %d</string>
+    <string name="distance">Distance Ran: %.2f</string>
+    <string name="longitude">Longitude: %f</string>
+    <string name="latitude">Latitude: %f</string>
+
+    <string name="orderby">Sort By</string>
+    <string name="filterby">Filter By</string>
+    <string name="asc">Ascending</string>
+    <string name="desc">Descending</string>
+    <string name="to"> to </string>
+
+    <string name="stat_fastest">Your fastest time was: %.2f</string>
+    <string name="stat_improv">You improved your speed by: %.2f m/s</string>
+    <string name="stat_distance">You ran a total distance of: %.2f m</string>
+    <string name="stat_runs">You ran a total of %d times</string>
+
+    <string name="setting_map">Map Enabled?</string>
+    <string name="setting_step">Minimum Walk Threshold (default 4):</string>
+    <string name="setting_delay">Location Minimum Update Delay (seconds):</string>
+    <string name="setting_distance">Location Minimum Distance per Update (metres):</string>
+    <string name="button_settings">Update Settings</string>
+
+    <string name="button_stats">View Statistics</string>
+    <string name="button_deselect">Deselect</string>
+    <string name="button_runstart">Start Run</string>
+    <string name="button_runend">Finish Run</string>
+    <string name="button_runpause">Pause</string>
+    <string name="button_runresume">Resume</string>
+    <string name="button_submit">Submit</string>
+    <string name="button_cancel">Cancel</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="array_select">
+        <item>Today</item>
+        <item>7 Days</item>
+        <item>30 Days</item>
+        <item>365 Days</item>
+    </string-array>
+
+    <string-array name="array_orderBy">
+        <item>Date</item>
+        <item>Duration</item>
+        <item>Distance</item>
+    </string-array>
+
+    <string-array name="array_weather">
+        <item>Sunny</item>
+        <item>Cloudy</item>
+        <item>Rainy</item>
+        <item>Stormy</item>
+    </string-array>
+</resources>

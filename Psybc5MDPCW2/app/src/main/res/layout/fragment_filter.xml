@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:paddingVertical="5sp"
+    android:orientation="vertical"
+    tools:context=".ui.dialog.FilterDialog">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:layout_marginHorizontal="20sp"
+        android:text="@string/orderby"
+        android:textSize="16sp" />
+
+    <Spinner
+        android:id="@+id/spinner_orderBy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton_dir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="@string/asc"
+        android:textOn="@string/desc" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginTop="20sp"
+        android:text="@string/filterby"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <Spinner
+        android:id="@+id/spinner_filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton_filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="Only Show"
+        android:textOn="Don't Show"
+        android:visibility="gone" />
+
+</LinearLayout>

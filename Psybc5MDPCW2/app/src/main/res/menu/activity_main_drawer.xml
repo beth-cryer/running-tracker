@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_tracker"
+            android:icon="@drawable/baseline_timer_black_24dp"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_data"
+            android:icon="@drawable/ic_table_view_black_24dp"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="@string/menu_slideshow" />
+    </group>
+</menu>
